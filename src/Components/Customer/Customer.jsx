@@ -8,7 +8,7 @@ const Customer = () => {
       <h2 className="text-black text-3xl font-semibold">What Customer Says</h2>
       <p className="w-1/2 mx-auto">
         the majority have suffered alteration in some form, by injected humour,
-        or randomised words which don't look even slightly believable.{" "}
+        or randomised words which do not look even slightly believable.{" "}
       </p>
 
       <div className="flex flex-col justify-center items-center  gap-10 md:flex-row mt-5">

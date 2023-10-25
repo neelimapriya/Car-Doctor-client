@@ -2,6 +2,7 @@ import img1 from '../../assets/images/banner/1.jpg'
 import img2 from '../../assets/images/banner/2.jpg'
 import img3 from '../../assets/images/banner/3.jpg'
 import img4 from '../../assets/images/banner/4.jpg'
+import styles from './Banner/Banner.css'
 
 
 const Banner = () => {
@@ -67,7 +68,7 @@ const Banner = () => {
       <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
       <div>
         <button className='btn btn-primary mr-5'>Discover More</button>
-        <button className='btn btn-outline btn-secondary'>Latest Project</button>
+        <button className={`btn btn-outline btn-secondary clip-path ${styles['clip-path']}`} >Latest Project</button>
       </div>
       </div>
     </div>
