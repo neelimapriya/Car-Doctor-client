@@ -23,6 +23,7 @@ const SignUp = () => {
         form.reset()
     })
     .catch(error=>console.log(error))
+    form.reset()
   };
   return (
     <div className="hero min-h-screen ">

@@ -16,6 +16,7 @@ const Login = () => {
     login(email, password)
       .then((result) => console.log(result.user))
       .catch((error) => console.log(error));
+      form.reset()
   };
   return (
     <div className="hero min-h-screen ">
